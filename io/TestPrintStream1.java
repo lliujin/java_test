@@ -19,5 +19,6 @@ public class TestPrintStream1 {
 				ln = 0;
 			}
 		}
+		ps.close();
 	}
 }
