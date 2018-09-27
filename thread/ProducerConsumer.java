@@ -34,7 +34,7 @@ class SyncStack {
         }
         this.notifyAll();
         arrB[index] = b;
-        index ++;
+        index++;
     }
     
     public synchronized Bun pop() {
@@ -46,7 +46,7 @@ class SyncStack {
             }
         }
         this.notifyAll();
-        index --;
+        index--;
         return arrB[index];
     }
 }
