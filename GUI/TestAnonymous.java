@@ -6,7 +6,7 @@ public class TestAnonymous {
     TextField tf = new TextField(10);
     Button b = new Button("start");
     
-    TestAnonymous() {
+    public TestAnonymous() {
         f.add(b, "North");
         f.add(tf, "South");
         
