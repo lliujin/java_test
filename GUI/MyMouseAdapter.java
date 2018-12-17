@@ -9,11 +9,11 @@ public class MyMouseAdapter {
 }
 
 class MyFrame4 extends Frame {
-    ArrayList points = null;
+    ArrayList<Point> points = null;
     
     MyFrame4(String s) {
         super(s);
-        points = new ArrayList();
+        points = new ArrayList<Point>();
         setLayout(null);
         setBounds(300,300,400,300);
         setBackground(new Color(204,204,255));
@@ -22,7 +22,7 @@ class MyFrame4 extends Frame {
     }
     
     public void paint(Graphics g) {
-        Iterator i = points.iterator();
+        Iterator<Point> i = points.iterator();
         while(i.hasNext()) {
             Point p = (Point)i.next();
             g.setColor(Color.blue);
