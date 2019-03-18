@@ -1,2 +1,6 @@
 *.class
 docs
+.idea
+out
+*.DS_Store
+*.iml
